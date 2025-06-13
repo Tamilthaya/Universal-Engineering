@@ -1,0 +1,170 @@
+/* .logodflex{
+    display: flex!important;
+   
+}*/
+.recentproduct{
+    border-radius: 30px!important;
+    /* box-shadow: 5px 5px 0px 0px burlywood; */
+} 
+
+.recentproduct h2:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: brown;
+  color: #fff!important;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .service-box {
+    display: flex;
+    flex-direction: row;
+    background: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    align-items: center;
+  }
+
+  .service-box:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .service-img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .service-box:hover .service-img {
+    transform: scale(1.05) translateX(-5px);
+  }
+
+  .service-content {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .service-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .service-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .view-btn {
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+
+  .view-btn:hover {
+    background: #444;
+  }
+
+  /* Tablet: 2 per row */
+  @media (max-width: 1440px) {
+    .service-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    align-items: center;
+  }
+  }
+
+  /* Mobile: 1 per row */
+  @media (max-width: 992px) {
+    .services-section {
+      grid-template-columns: 1fr;
+    }
+
+    .service-box {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .service-img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+    }
+
+    .service-content {
+      padding: 15px;
+    }
+  }
+  .anger{
+    opacity: 0.5!important;
+    color: white!important;
+  }
+  .anger:hover{
+    opacity: 1!important;
+    margin-left: 5px;
+    transition: 0.5;
+    color: white!important;
+  }
+
+  .navcolor:hover{
+    color: rgb(22, 155, 189)!important;
+    scale: 1.2!important;
+  }
+
+  .recentproduct{
+    border-radius: 30px!important;
+    /* box-shadow: 5px 5px 0px 0px burlywood; */
+} 
+
+.recentproduct h2:hover{
+    color: brown!important;
+    cursor: pointer;
+}
+
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: brown!important;
+  color: #fff!important;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
